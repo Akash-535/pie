@@ -5,7 +5,7 @@ import { COMPETITION_LIST } from '../utils/helper'
 
 const Competition = () => {
     return (
-    <div className='competition-section mt-2'>
+    <div className='competition-section min-vh-100 d-flex align-items-center justify-content-center'>
  <div className='container'>
             <div className='d-flex gap-5 flex-lg-row flex-column'>
                     <div className='col-lg-5 col-12 text-md-start text-center'>

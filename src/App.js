@@ -10,6 +10,7 @@ function App() {
 <BrowserRouter>
 <Routes>
   <Route path='/' element={<Hero />}/>
+  <Route path='/competition' element={<Competition/>}/>
 </Routes>
 </BrowserRouter>
 </>

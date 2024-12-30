@@ -2,9 +2,6 @@ import React from 'react'
 import Heading from '../common/Heading';
 import Description from '../common/Description';
 import HooksTask from './HooksTask';
-import Counter from './Counter';
-import { useNavigate } from 'react-router-dom';
-import Competition from './Competition';
 const Hero = () => {
   return (
     <>
@@ -56,7 +53,6 @@ const Hero = () => {
         </div>
     </div>
     <HooksTask/>
-    <Competition/>
     </>
   )
 }
