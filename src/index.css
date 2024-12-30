@@ -1,7 +1,15 @@
 @font-face {
   font-family: "avantt";
-  src: url("../public/assets/fonts/Avantt-SemiBold.ttf") format("truetype");
+  src: url("../public/assets/fonts/AvanttTRIAL-Regular-BF6721a86b1a848.otf");
+  font-weight: 400;
 }
+
+@font-face {
+  font-family: "avantt";
+  src: url("../public/assets/fonts/AvanttTRIAL-SemiBold-BF6721a86b1576e.otf");
+  font-weight: 600;
+}
+
 body {
-  font-family: avantt, sans-serif !important;
+  font-family: "avantt", sans-serif !important;
 }

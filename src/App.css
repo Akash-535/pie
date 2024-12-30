@@ -9,7 +9,11 @@
   padding-top: 72px;
   padding-bottom: 72px;
 }
-
+.competition-section {
+  background-color: #191423;
+  padding-top: 143px;
+  padding-bottom: 143px;
+}
 .container {
   max-width: 1140px !important;
   margin-left: auto;
@@ -93,9 +97,7 @@
   max-width: 400px;
 }
 
-.table-bg {
-  background-color: #026070;
-}
+/* ====Second Section==== */
 
 .border-b {
   border-bottom: 0.75px solid #000000;
@@ -104,11 +106,23 @@
 .table-parent {
   justify-content: space-around;
 }
+
+.cards-img {
+  width: 320px;
+  height: 555px;
+  object-fit: cover;
+}
+
+.max-w-sm {
+  max-width: 95px !important;
+}
+
 .table-heading {
   font-size: 12px;
   line-height: 15.6px;
   color: #000000;
-  padding: 12px 15px;
+  padding: 27px 19px !important;
+  width: 95px !important;
   border-top-left-radius: 6px !important;
   border-top-right-radius: 6px !important;
 }
@@ -119,7 +133,7 @@
   width: 100%;
   border-collapse: separate;
   border-spacing: 10px 0;
-  padding: 52px 16px;
+  padding: 52px 12px;
 }
 
 .bg-lightGreen {
@@ -127,7 +141,7 @@
 }
 
 .custom-td {
-  padding: 10px 21px;
+  padding: 18px 11px;
   background-color: #fff;
   border-top: 0.75px solid #000000;
   border-bottom: 0.75px solid #000000;
@@ -136,7 +150,6 @@
 .custom-td:last-child {
   background-color: #e8f5e9;
 }
-
 table th:first-child,
 table td:first-child {
   border-left: none;
@@ -149,22 +162,10 @@ thead tr th {
 .custom-border-b-none {
   border-bottom: none !important;
 }
-.border-rounded-bottom {
-  border-bottom-left-radius: 6px !important;
-  border-bottom-right-radius: 6px !important;
-}
-
-.custom-px {
-  padding-left: 31px;
-  padding-right: 31px;
-}
-
 .custom-fee {
   font-size: 8px;
-  line-height: 120%;
-  color: #000000;
-  padding-left: 12px;
-  padding-right: 12px;
+  border-bottom-left-radius: 6px !important;
+  border-bottom-right-radius: 6px !important;
 }
 @media (max-width: 1199.98px) {
   .product-card {

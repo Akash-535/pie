@@ -11,7 +11,7 @@ const Hero = () => {
     <div className='min-vh-100 section d-flex align-items-center justify-content-center'>
         <div className='container'>
             <div className='d-flex gap-3 flex-xl-row flex-column'>
-                    <div className='col-xl-4 col-12 text-container'>
+                    <div className='col-xl-4 col-12 text-container text-md-start text-center'>
                         <Heading text="Product"/>
                         <Description text="Due to the confusing nature of tax, the lack of awareness of the tax deduction system and the complicated tax refund process, we have experienced exceptional demand from the public for our service. From release in 2015, our original tax product has achieved 60x growth, bringing in over £5m revenue in 2022."/>
                         <div className='py-2'>
