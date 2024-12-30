@@ -1,0 +1,233 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+.section {
+  background-color: #191423;
+  padding-top: 72px;
+  padding-bottom: 72px;
+}
+
+.container {
+  max-width: 1140px !important;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 12px;
+  padding-right: 12px;
+}
+
+.common-heading {
+  font-size: 46px;
+  line-height: 130%;
+  padding-bottom: 50px;
+}
+
+.common-description {
+  font-size: 16px;
+  line-height: 150%;
+}
+.text-container {
+  background-color: #362b4f;
+  border-radius: 16px;
+  padding: 16px 26px;
+}
+.grid-container {
+  width: 100%;
+  background-color: #362b4f;
+  border-radius: 16px;
+  height: 100%;
+  max-width: 674px;
+  min-height: 666px;
+}
+.small-img {
+  max-width: 100px;
+  width: 100%;
+}
+.big-img {
+  max-width: 203px;
+  width: 100%;
+}
+.grid-box {
+  grid-template-columns: auto auto auto;
+  gap: 7px;
+  max-width: 622px;
+}
+.grid-item-1 {
+  grid-column: 1/2;
+  grid-row: 1/2;
+  gap: 4px;
+}
+
+.grid-item-2 {
+  grid-column: 2/3;
+  grid-row: 1/2;
+  gap: 4px;
+}
+
+.grid-item-3 {
+  grid-column: 1/2;
+  grid-row: 2/3;
+  gap: 4px;
+}
+
+.grid-item-4 {
+  grid-column: 2/3;
+  grid-row: 2/3;
+  gap: 4px;
+}
+
+.grid-item-5 {
+  grid-column: 1/2;
+  grid-row: 3/4;
+  gap: 4px;
+}
+
+.grid-item-6 {
+  grid-column: 2/3;
+  grid-row: 3/4;
+  gap: 4px;
+}
+.card {
+  max-width: 400px;
+}
+
+.table-bg {
+  background-color: #026070;
+}
+
+.border-b {
+  border-bottom: 0.75px solid #000000;
+}
+
+.table-parent {
+  justify-content: space-around;
+}
+.table-heading {
+  font-size: 12px;
+  line-height: 15.6px;
+  color: #000000;
+  padding: 12px 15px;
+  border-top-left-radius: 6px !important;
+  border-top-right-radius: 6px !important;
+}
+
+.custom-table-bg {
+  background: #026070 !important;
+  border-radius: 12px !important;
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 10px 0;
+  padding: 52px 16px;
+}
+
+.bg-lightGreen {
+  background-color: #56e3cb !important;
+}
+
+.custom-td {
+  padding: 10px 21px;
+  background-color: #fff;
+  border-top: 0.75px solid #000000;
+  border-bottom: 0.75px solid #000000;
+}
+
+.custom-td:last-child {
+  background-color: #e8f5e9;
+}
+
+table th:first-child,
+table td:first-child {
+  border-left: none;
+}
+
+thead tr th {
+  padding: 12px 15px;
+}
+
+.custom-border-b-none {
+  border-bottom: none !important;
+}
+.border-rounded-bottom {
+  border-bottom-left-radius: 6px !important;
+  border-bottom-right-radius: 6px !important;
+}
+
+.custom-px {
+  padding-left: 31px;
+  padding-right: 31px;
+}
+
+.custom-fee {
+  font-size: 8px;
+  line-height: 120%;
+  color: #000000;
+  padding-left: 12px;
+  padding-right: 12px;
+}
+@media (max-width: 1199.98px) {
+  .product-card {
+    max-width: unset;
+  }
+  .grid-container {
+    max-width: unset;
+    min-height: unset;
+    padding: 26px;
+  }
+}
+
+@media (max-width: 991.98px) {
+  .common-heading {
+    font-size: 38px;
+    padding-bottom: 35px;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .common-heading {
+    font-size: 30px;
+    padding-bottom: 20px;
+  }
+
+  .common-description {
+    font-size: 14px;
+    margin-top: 4px !important;
+  }
+
+  .grid-item-1 {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    gap: 4px;
+  }
+
+  .grid-item-2 {
+    grid-column: 1/2;
+    grid-row: 3/4;
+    gap: 4px;
+  }
+
+  .grid-item-3 {
+    grid-column: 1/2;
+    grid-row: 2/3;
+    gap: 4px;
+  }
+
+  .grid-item-4 {
+    grid-column: 1/2;
+    grid-row: 4/5;
+    gap: 4px;
+  }
+
+  .grid-item-5 {
+    grid-column: 1/2;
+    grid-row: 5/6;
+    gap: 4px;
+  }
+
+  .grid-item-6 {
+    grid-column: 1/2;
+    grid-row: 6/7;
+    gap: 4px;
+  }
+}

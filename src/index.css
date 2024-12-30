@@ -1,0 +1,7 @@
+@font-face {
+  font-family: "avantt";
+  src: url("../public/assets/fonts/Avantt-SemiBold.ttf") format("truetype");
+}
+body {
+  font-family: avantt, sans-serif !important;
+}
