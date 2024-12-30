@@ -22,17 +22,24 @@ for (let i = 9; i >= 0 ;  i--)
     {console.log(i);};
     return (
         <div className='d-flex justify-content-center align-items-center min-vh-100 flex-column gap-5 py-5'>
-            <h2>Count: {count}</h2>
-           <div className='d-flex gap-3 text-center flex-row'>
+      <div className='text-center'>
+        <h2 className='text-center text-lg fw-bold'>Counte 9 to 1</h2>
+      <p>Count: {count}</p>
+      </div>
+        <div>
+            <h2 className='text-center text-lg fw-bold pb-3'>Decrease Increase</h2>
+        <div className='d-flex gap-3 text-center flex-row'>
            <button onClick={() => setCounter(counter - 1)} className='py-2 px-3 border border-danger rounded-3 bg-transparent'>Decrease</button>
             <p className='px-3'>{counter}</p>
             <button onClick={() => setCounter(counter + 1)} className='py-2 px-3 border border-danger rounded-3 bg-transparent'>Increase</button>
            </div>
+        </div>
            <div>
+            <h2 className='text-center text-lg fw-bold'>Counter</h2>
            <Counter/>
            </div>
          <div>
-            <p className='text-center text-lg fw-bold'>Search Params</p>
+            <h2 className='text-center text-lg fw-bold'>Search Params</h2>
          <div className='d-flex align-items-center gap-4 justify-content-center h-screen px-5 flex-wrap pt-4'>
            {PARAMS_CARD_LIST.map((obj, i) => (
                     <div key={i} className='card py-3 px-4 d-flex flex-col justify-content-center align-items-center'>
