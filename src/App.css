@@ -125,7 +125,7 @@
   border-top-right-radius: 6px !important;
 }
 
-.custom-table-bg {
+.table-parent {
   background: #026070 !important;
   border-radius: 12px !important;
   width: 100%;
@@ -157,7 +157,7 @@ thead tr th {
   padding: 12px 15px;
 }
 
-.custom-border-b-none {
+.border-b-0 {
   border-bottom: none !important;
 }
 .custom-fee {
